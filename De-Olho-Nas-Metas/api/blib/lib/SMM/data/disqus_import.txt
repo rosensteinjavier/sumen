@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:dsq="http://www.disqus.com/"	     xmlns:dc="http://purl.org/dc/elements/1.1/"	       xmlns:wp="http://wordpress.org/export/1.0/">
+<channel>
+<item>
+<title> Foo Bar </title>
+<link>http://deolhonasmetas.org.br/project/4454</link>
+<content:encoded><![CDATA[Hello World]]></content:encoded>
+<wp:post_date_gmt>2015-04-01 12:53:54</wp:post_date_gmt>
+<wp:comment_status>open</wp:comment_status>
+<wp:comment>
+<wp:comment_id>14</wp:comment_id>
+<wp:comment_author>Walter Tesch</wp:comment_author>
+<wp:comment_author_email>walter.tesch65@gmail.com</wp:comment_author_email>
+<wp:comment_date_gmt>2015-03-30 15:59:08</wp:comment_date_gmt>
+<wp:comment_content><![CDATA[Gostaria de conhecer mais detalhes deste projeto, pois me parece parcial Fala em "condominio' quando de fato não exuste um condominio ali.2-Queria saber se é um projeto é transversal se contempla o fato de que a região a Cratera é Tombada pelo Municipio, Estado e APA e esta enquadrado nas tratativas que vem desde 2007-08 ou é apenas clientelista de "atendimento de demanda" sem o ganha-ganha?]]></wp:comment_content>
+<wp:comment_approved>1</wp:comment_approved>
+<wp:comment_parent>0</wp:comment_parent>
+</wp:comment>
+</item>
+
+</channel>
+</rss>
