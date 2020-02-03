@@ -8,4 +8,4 @@ Plataforma sumen mendoza
 
 Para más información ver https://docs.google.com/document/d/1LyZW8LOCNyGj2r4UV0JA0B8oygI0XQCooPjbtEzpKsU/edit
 
-O descargarse la VM con el sistema andando disponible en http://goo.gl/IzLhTG
+O descargarse la VM con el sistema andando disponible en http://goo.gl/IzLhTG (probado con VirtualBox 6.1.0)
