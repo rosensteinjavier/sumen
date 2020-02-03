@@ -1,0 +1,23 @@
+BINDIR = /usr/lib/postgresql/9.3/bin
+DOCDIR = /usr/share/doc/postgresql-doc-9.3
+HTMLDIR = /usr/share/doc/postgresql-doc-9.3
+INCLUDEDIR = /usr/include/postgresql
+PKGINCLUDEDIR = /usr/include/postgresql
+INCLUDEDIR-SERVER = /usr/include/postgresql/9.3/server
+LIBDIR = /usr/lib/x86_64-linux-gnu
+PKGLIBDIR = /usr/lib/postgresql/9.3/lib
+LOCALEDIR = /usr/share/locale
+MANDIR = /usr/share/postgresql/9.3/man
+SHAREDIR = /usr/share/postgresql/9.3
+SYSCONFDIR = /etc/postgresql-common
+PGXS = /usr/lib/postgresql/9.3/lib/pgxs/src/makefiles/pgxs.mk
+CONFIGURE = '--with-tcl' '--with-perl' '--with-python' '--with-pam' '--with-openssl' '--with-libxml' '--with-libxslt' '--with-tclconfig=/usr/lib/x86_64-linux-gnu/tcl8.6' '--with-includes=/usr/include/tcl8.6' 'PYTHON=/usr/bin/python' '--mandir=/usr/share/postgresql/9.3/man' '--docdir=/usr/share/doc/postgresql-doc-9.3' '--sysconfdir=/etc/postgresql-common' '--datarootdir=/usr/share/' '--datadir=/usr/share/postgresql/9.3' '--bindir=/usr/lib/postgresql/9.3/bin' '--libdir=/usr/lib/x86_64-linux-gnu/' '--libexecdir=/usr/lib/postgresql/' '--includedir=/usr/include/postgresql/' '--enable-nls' '--enable-integer-datetimes' '--enable-thread-safety' '--enable-debug' '--disable-rpath' '--with-ossp-uuid' '--with-gnu-ld' '--with-pgport=5432' '--with-system-tzdata=/usr/share/zoneinfo' 'CFLAGS=-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -I/usr/include/mit-krb5 -fPIC -pie -DLINUX_OOM_SCORE_ADJ=0 -fno-omit-frame-pointer' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -L/usr/lib/mit-krb5 -L/usr/lib/x86_64-linux-gnu/mit-krb5' '--with-krb5' '--with-gssapi' '--with-ldap' 'CPPFLAGS=-D_FORTIFY_SOURCE=2'
+CC = gcc
+CPPFLAGS = -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -I/usr/include/libxml2 -I/usr/include/tcl8.6
+CFLAGS = -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -I/usr/include/mit-krb5 -fPIC -pie -DLINUX_OOM_SCORE_ADJ=0 -fno-omit-frame-pointer -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard -g
+CFLAGS_SL = -fpic
+LDFLAGS = -L../../../src/common -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -L/usr/lib/mit-krb5 -L/usr/lib/x86_64-linux-gnu/mit-krb5 -Wl,--as-needed
+LDFLAGS_EX = 
+LDFLAGS_SL = 
+LIBS = -lpgport -lpgcommon -lxslt -lxml2 -lpam -lssl -lcrypto -lkrb5 -lcom_err -lgssapi_krb5 -lz -ledit -lcrypt -ldl -lm 
+VERSION = PostgreSQL 9.3.13
